@@ -54,7 +54,6 @@ function stringTripletGroup(string) {
   }
   console.log(array);
 }
-stringTripletGroup("Os três mosqueteiros");
 
 // ----> Exercício 4 <---- //
 

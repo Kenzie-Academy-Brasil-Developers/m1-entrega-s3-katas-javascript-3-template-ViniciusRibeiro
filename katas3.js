@@ -39,8 +39,8 @@ function vowelsCounter(lista) {
 function stringTripletGroup(string) {
   let letra = "";
   let array = [];
-  let cont = 1;
-  for (let i = 0; i <= string.length; i++) {
+  let cont = 0;
+  for (let i = 0; i < string.length; i++) {
     if (cont < 3) {
       letra += string[i];
       cont++;
@@ -50,10 +50,15 @@ function stringTripletGroup(string) {
       letra = "";
       letra += string[i];
       cont++;
+    } 
+    if (i == string.length-1) {
+      array.push (letra + " ");
     }
   }
   console.log(array);
 }
+
+stringTripletGroup("Os Três mosqueteiros")
 
 // ----> Exercício 4 <---- //
 

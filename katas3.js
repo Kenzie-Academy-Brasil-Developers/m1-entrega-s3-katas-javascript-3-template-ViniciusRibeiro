@@ -58,8 +58,6 @@ function stringTripletGroup(string) {
   console.log(array);
 }
 
-stringTripletGroup("Os Três mosqueteiros")
-
 // ----> Exercício 4 <---- //
 
 function dominantPet(pet) {

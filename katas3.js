@@ -34,7 +34,7 @@ function vowelsCounter(lista) {
   return array;
 }
 
-// ----> Exercício 3 <---- // ---- help me
+// ----> Exercício 3 <---- //
 
 function stringTripletGroup(string) {
   let letra = "";
